@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "projectName": "ProAgil.Domain",
-      "projectPath": "C:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\obj\\",
+      "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

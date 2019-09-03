@@ -1,6 +1,10 @@
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProAgil.API.Dtos;
 using ProAgil.Domain;
 using ProAgil.Repository;
 
@@ -11,10 +15,12 @@ namespace ProAgil.API.Controllers
     public class EventoController : ControllerBase
     {
         private readonly IProAgilRepository repo;
+        private IMapper mapper;
 
-        public EventoController(IProAgilRepository repo)
+        public EventoController(IProAgilRepository repo, IMapper mapper)
         {
             this.repo = repo;
+            this.mapper = mapper;
         }
 
         [HttpGet]
@@ -22,7 +28,8 @@ namespace ProAgil.API.Controllers
         {
             try
             {
-                var results = await this.repo.GetAllEventoAsync(true);
+                var eventos = await this.repo.GetAllEventoAsync(true);
+                var results = this.mapper.Map<IEnumerable<EventoDto>>(eventos);
                 return Ok(results);
             }
             catch (System.Exception)
@@ -60,13 +67,14 @@ namespace ProAgil.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Evento model)
+        public async Task<IActionResult> Post(EventoDto model)
         {
             try
             {
-                this.repo.Add(model);
+                var evento = this.mapper.Map<Evento>(model);
+                this.repo.Add(evento);
                 if (await this.repo.SaveChangesAsync()) {
-                    return Created($"/api/evento/{model.Id}", model);
+                    return Created($"/api/evento/{model.Id}", this.mapper.Map<EventoDto>(model));
                 }
             }
             catch (System.Exception)
@@ -78,21 +86,24 @@ namespace ProAgil.API.Controllers
         }
 
         [HttpPut("{eventoid}")]
-        public async Task<IActionResult> Put(int eventoId,Evento model)
+        public async Task<IActionResult> Put(int eventoId,EventoDto model)
         {
             try
             {
+
                 var evento = await this.repo.GetEventoAsyncById(eventoId, false);
                 if(evento == null)
                 {
                     return NotFound();
                 }
 
-                this.repo.Add(model);
+                this.mapper.Map(model, evento);
+
+                this.repo.Update(model);
 
                 if(await this.repo.SaveChangesAsync())
                 {
-                    return Created($"/api/evento/{model.Id}", model);
+                    return Created($"/api/evento/{model.Id}", this.mapper.Map<EventoDto>(model));
                 }
             }
             catch (System.Exception)

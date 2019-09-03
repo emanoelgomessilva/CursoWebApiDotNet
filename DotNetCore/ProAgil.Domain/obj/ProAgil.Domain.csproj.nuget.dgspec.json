@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {}
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "c:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\egs\\Documents\\cursoAngular\\DotNetCore\\ProAgil.Domain\\obj\\",
+        "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
