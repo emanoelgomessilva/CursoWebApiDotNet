@@ -4627,6 +4627,9 @@
       "ProAgil.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/ProAgil.Domain.dll": {}
         },
@@ -4638,6 +4641,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "ProAgil.Domain": "1.0.0"
@@ -12519,11 +12523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
+      "projectUniqueName": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
       "projectName": "ProAgil.API",
-      "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
+      "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
       "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\obj\\",
+      "outputPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12542,11 +12546,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-              "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+            "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+              "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
             },
-            "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-              "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj"
+            "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+              "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj"
             }
           }
         }

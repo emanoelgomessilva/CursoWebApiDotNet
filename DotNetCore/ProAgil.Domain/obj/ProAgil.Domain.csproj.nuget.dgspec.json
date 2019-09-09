@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {}
+    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
+        "outputPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

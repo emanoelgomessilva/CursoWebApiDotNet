@@ -48,9 +48,9 @@ namespace ProAgil.API.Controllers
                 var file = Request.Form.Files[0];
                 var folderName = Path.Combine("Resources", "Images");
                 var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
-                return Ok();
-
-                if (file.Length > 0) {
+                
+                if (file.Length > 0)
+                {
                     var fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName;
                     var fullPath = Path.Combine(pathToSave, fileName.Replace("\"", " ").Trim());
 
@@ -60,6 +60,8 @@ namespace ProAgil.API.Controllers
                     }
 
                 }
+
+                return Ok();
 
             }
             catch (System.Exception)

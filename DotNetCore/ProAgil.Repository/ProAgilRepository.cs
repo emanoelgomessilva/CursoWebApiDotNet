@@ -50,9 +50,9 @@ namespace ProAgil.Repository
                                 .Include(c => c.Lotes)
                                 .Include(c => c.RedesSociais);
             if(includePalestrantes){
-                query = query
-                        .Include(pe=>pe.PalestranteEventos)
-                        .ThenInclude(p=>p.Palestrante);
+                 query = query
+                         .Include(pe=>pe.PalestranteEventos)
+                         .ThenInclude(p=>p.Palestrante);
             }
             query = query.OrderByDescending(c => c.DataEvento)
                          .AsNoTracking()
