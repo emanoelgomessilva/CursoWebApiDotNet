@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj": {}
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj": {
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
+        "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
         "projectName": "ProAgil.API",
-        "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
+        "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\ProAgil.API.csproj",
         "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\obj\\",
+        "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
               },
-              "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
-                "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj"
+              "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+                "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "projectName": "ProAgil.Domain",
-        "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+        "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj",
         "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
+        "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+    "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "projectName": "ProAgil.Repository",
-        "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
+        "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\ProAgil.Repository.csproj",
         "packagesPath": "C:\\Users\\egs\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\obj\\",
+        "outputPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -164,8 +164,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
-                "projectPath": "c:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
+              "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+                "projectPath": "C:\\Users\\egs\\Documents\\GitHub\\CursoWebApiDotNet\\DotNetCore\\ProAgil.Domain\\ProAgil.Domain.csproj"
               }
             }
           }
