@@ -48,7 +48,7 @@ namespace ProAgil.API.Controllers
             {
                 var user = _mapper.Map<User>(userDto);
                 var result = await _userManager.CreateAsync(user, userDto.Password);
-                var userReturn = _mapper.Map<UserDto>(User);
+                var userReturn = _mapper.Map<UserDto>(user);
 
                 if(result.Succeeded)
                 {
@@ -63,6 +63,8 @@ namespace ProAgil.API.Controllers
             }
         }
 
+        [HttpPost("Login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(UserLoginDto userLogin){
             try
             {
@@ -84,10 +86,10 @@ namespace ProAgil.API.Controllers
 
                 return Unauthorized();
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
-                
-                throw;
+
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de dados falhou {ex.Message}");
             }
         }
 

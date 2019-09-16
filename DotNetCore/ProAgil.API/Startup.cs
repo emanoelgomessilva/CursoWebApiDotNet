@@ -70,8 +70,7 @@ namespace ProAgil.Api
                 }
             );
 
-            services.AddMvc(options => 
-                            {
+            services.AddMvc(options => {
                                 var policy = new AuthorizationPolicyBuilder()
                                                 .RequireAuthenticatedUser()
                                                 .Build();
@@ -99,6 +98,8 @@ namespace ProAgil.Api
                 app.UseHsts();
             }
 
+            
+            app.UseAuthentication();
             //app.UseHttpsRedirection();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseStaticFiles(new StaticFileOptions {
